@@ -1,0 +1,79 @@
+*{
+	margin: 0;
+	padding: 0;
+}
+
+/*hours task*/
+body{
+	display: flex;
+	justify-content: center;
+	align-items: center;
+	height: 100vh;
+}
+
+.d{
+	width: 300px;
+	height: 300px;
+	border: 2px solid;
+	border-radius: 50%;
+	position: relative;
+
+ }
+
+
+ .d1{
+ 	position: absolute;
+ 	top: 50%;
+ 	right: 7%;
+ }
+
+.d2{
+	position: absolute;
+	top: 93%;	
+	left: 50%;
+}
+
+.d3{
+	position: absolute;
+	top: 50%;	
+	left: 7%;
+ }
+ 
+ .d4{
+	position: absolute;
+	top: 4%;	
+	left: 50%;
+}
+ 
+
+.hour{
+	width: 2%;
+	height: 100px;
+	background-color: black;
+	position: absolute;
+	left: 51%;
+	top: 60px;
+	transform-origin: 0 100%;
+
+}
+.minut{
+	width: 1.5%;
+	height: 110px;
+	background-color: green;
+	position: absolute;
+	left: 51%;
+	top: 50px;
+	transform-origin: 0 100%;
+
+}
+
+.sec{
+	width: 1%;
+	height: 120px;
+	background-color: red;
+	position: absolute;
+	left: 51%;
+	top: 40px;
+	transform-origin: 0 100%;
+} 
+
