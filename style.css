@@ -17,6 +17,7 @@ body{
 	border: 2px solid;
 	border-radius: 50%;
 	position: relative;
+	background-color: #3672D3;
 
  }
 
@@ -77,3 +78,9 @@ body{
 	transform-origin: 0 100%;
 } 
 
+img{
+	width: 200px;
+	height: 200px;
+	margin-left: 50px;
+	margin-top: 40px;
+}
